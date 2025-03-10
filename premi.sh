@@ -262,8 +262,8 @@ fi
 restart_system(){
 
 TIMES="10"
-CHATID="888888888"
-KEY="7575047078:AAGTPI1mfbNmLTfJR69DNREi6izushwowv0jI"
+CHATID="6952044721"
+KEY="7946528424:AAHl7R5BIZPMM1DDpz4Hi1mmJXU6oMtX3QQ"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 
 USRSC=$(curl -sS $url_izin | grep $IP | awk '{print $2}')
